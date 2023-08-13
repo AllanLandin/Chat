@@ -1,0 +1,16 @@
+#messagesContainer{
+    height: 90vh;
+}
+#headerImg{
+    width: 200px;
+
+}
+
+@media screen and (max-width: 576px) {
+    #messagesContainer{
+        height: 70vh;
+    }
+    #headerImg{
+        display: none;
+    }
+}
